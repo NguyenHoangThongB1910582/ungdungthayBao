@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "165192954369",
+    "project_id": "thaybao-6a3dd",
+    "storage_bucket": "thaybao-6a3dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165192954369:android:159a3ceb66570712960600",
+        "android_client_info": {
+          "package_name": "com.example.tiktok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165192954369-rvl4qvmjgqn6jqa7k2r6jmq548dih2rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqSbTTwKiMRNkSHVdSan9t6rEpK6vPDWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165192954369-rvl4qvmjgqn6jqa7k2r6jmq548dih2rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
