@@ -71,7 +71,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
                     width: MediaQuery.of(context).size.width - 20,
                     child: TextInputField(
                       controller: _songController,
-                      labelText: 'Song Name',
+                      labelText: 'Tiêu đề',
                       icon: Icons.music_note,
                     ),
                   ),
@@ -83,7 +83,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
                     width: MediaQuery.of(context).size.width - 20,
                     child: TextInputField(
                       controller: _captionController,
-                      labelText: 'Caption',
+                      labelText: 'Mô tả',
                       icon: Icons.closed_caption,
                     ),
                   ),
@@ -96,7 +96,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
                           _captionController.text,
                           widget.videoPath),
                       child: const Text(
-                        'Share',
+                        'Đăng tải',
                         style: TextStyle(
                           fontSize: 20,
                           color: Colors.white,
