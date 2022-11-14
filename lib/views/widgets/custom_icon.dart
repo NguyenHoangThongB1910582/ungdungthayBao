@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// xử lý icon thanh trạng thái
 class CustomIcon extends StatelessWidget {
   const CustomIcon({Key? key}) : super(key: key);
 

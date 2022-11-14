@@ -71,7 +71,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
                     width: MediaQuery.of(context).size.width - 20,
                     child: TextInputField(
                       controller: _songController,
-                      labelText: 'Tiêu đề',
+                      labelText: 'Âm thanh',
                       icon: Icons.music_note,
                     ),
                   ),
@@ -83,7 +83,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
                     width: MediaQuery.of(context).size.width - 20,
                     child: TextInputField(
                       controller: _captionController,
-                      labelText: 'Mô tả',
+                      labelText: 'Tiêu đề',
                       icon: Icons.closed_caption,
                     ),
                   ),
@@ -111,3 +111,4 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
     );
   }
 }
+//3h21p

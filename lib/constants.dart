@@ -4,14 +4,16 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:tiktok/controllers/auth_controller.dart';
 import 'package:tiktok/views/screens/add_video_screen.dart';
+import 'package:tiktok/views/screens/profile_screen.dart';
 import 'package:tiktok/views/screens/video_screen.dart';
 
+// danh sách
 List pages = [
   VideoScreen(),
   Text('Tìm kiếm'),
   const AddVideoScreen(),
   Text('Thông báo'),
-  Text('Cá nhân'),
+  ProfileScreen(),
 ];
 
 // COLORS

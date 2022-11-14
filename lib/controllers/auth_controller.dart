@@ -23,6 +23,7 @@ class AuthController extends GetxController {
     ever(_user, _setInitialScreen);
   }
 
+// duy trì đăng nhập
   _setInitialScreen(User? user) {
     if (user == null) {
       Get.offAll(() => LoginScreen());
@@ -37,7 +38,7 @@ class AuthController extends GetxController {
         await ImagePicker().pickImage(source: ImageSource.gallery);
     if (pickedImage != null) {
       Get.snackbar(
-          'Profile Picture', 'Bạn đã chọn thành công ảnh hồ sơ của mình!');
+          'Ảnh đại diện', 'Bạn đã chọn thành công ảnh hồ sơ của mình!');
     }
     _pickedImage = Rx<File?>(File(pickedImage!.path));
   }
@@ -115,6 +116,5 @@ class AuthController extends GetxController {
   }
 }
 
-  // save out user to our ath and firebase firestore
 
 //59p37g
