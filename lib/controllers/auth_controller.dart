@@ -23,16 +23,15 @@ class AuthController extends GetxController {
     ever(_user, _setInitialScreen);
   }
 
-// duy trì đăng nhập
   _setInitialScreen(User? user) {
     if (user == null) {
       Get.offAll(() => LoginScreen());
-    }
-    {
+    } else {
       Get.offAll(() => const HomeScreen());
     }
   }
 
+  @override
   void pickImage() async {
     final pickedImage =
         await ImagePicker().pickImage(source: ImageSource.gallery);

@@ -18,12 +18,15 @@ class LoginScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Test',
+              'Hasilon',
               style: TextStyle(
-                fontSize: 35,
+                fontSize: 39,
                 color: buttonColor,
                 fontWeight: FontWeight.w900,
               ),
+            ),
+            const SizedBox(
+              height: 10,
             ),
             const Text(
               'Đăng nhập',
