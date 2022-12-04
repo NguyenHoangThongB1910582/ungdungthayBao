@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tiktok/constants.dart';
+import 'package:tiktok/controllers/auth_controller.dart';
 import 'package:tiktok/views/screens/auth/login_sreen.dart';
 import 'package:tiktok/views/widgets/text_input_field.dart';
 
@@ -20,15 +21,12 @@ class SignupScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Hasilon',
+              'Utube',
               style: TextStyle(
                 fontSize: 35,
                 color: buttonColor,
                 fontWeight: FontWeight.w900,
               ),
-            ),
-            const SizedBox(
-              height: 10,
             ),
             const Text(
               'Đăng kí',
@@ -45,7 +43,7 @@ class SignupScreen extends StatelessWidget {
                 const CircleAvatar(
                   radius: 64,
                   backgroundImage: NetworkImage(
-                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE26NjQaonqTRt7BXD_87Iuukitk_kcGBv3w&usqp=CAU'),
+                      'https://www.pngitem.com/pimgs/m/150-1503945_transparent-user-png-default-user-image-png-png.png'),
                   backgroundColor: Colors.black,
                 ),
                 Positioned(
@@ -68,7 +66,7 @@ class SignupScreen extends StatelessWidget {
               margin: const EdgeInsets.symmetric(horizontal: 20),
               child: TextInputField(
                 controller: _usernameController,
-                labelText: 'Tên tài khoản',
+                labelText: 'Tên',
                 icon: Icons.person,
               ),
             ),
@@ -102,7 +100,7 @@ class SignupScreen extends StatelessWidget {
             ),
             Container(
               width: MediaQuery.of(context).size.width - 40,
-              height: 40,
+              height: 50,
               decoration: BoxDecoration(
                 color: buttonColor,
                 borderRadius: const BorderRadius.all(
