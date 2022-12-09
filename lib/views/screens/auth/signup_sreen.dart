@@ -20,18 +20,10 @@ class SignupScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              'Utube',
-              style: TextStyle(
-                fontSize: 35,
-                color: buttonColor,
-                fontWeight: FontWeight.w900,
-              ),
-            ),
             const Text(
               'Đăng kí',
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 30,
                 fontWeight: FontWeight.w700,
               ),
             ),

@@ -203,6 +203,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               crossAxisCount: 2,
                               childAspectRatio: 1,
                               crossAxisSpacing: 5,
+                              mainAxisSpacing: 5,
                             ),
                             itemBuilder: (context, index) {
                               String thumbnail =

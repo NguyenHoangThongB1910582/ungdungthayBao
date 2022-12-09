@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Utube',
+              'Welcome Back',
               style: TextStyle(
                 fontSize: 39,
                 color: buttonColor,
